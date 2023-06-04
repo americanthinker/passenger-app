@@ -16,6 +16,12 @@ function increment() {
     console.log(count)
 }
 
+function decrement() {
+    count -= 1
+    countEl.innerText = count
+    console.log(count)
+}
+
 function save() {
     if (first_save){
         let new_count = " - " + count

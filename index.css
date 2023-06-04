@@ -34,7 +34,7 @@ h2 {
     margin-top: 10rem;
 
 }
-#increment-btn {
+.action-btn {
     background-color: purple;
     color: white;
     padding: 10px 20px;
@@ -50,7 +50,7 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-#increment-btn:hover {
+.action-btn:hover {
     background-color: #9933cc;
 }
 
